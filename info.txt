@@ -1,0 +1,17 @@
+1) Скачиваем и устанавливаем последнюю версию firefox
+
+2) Скачиваем и устанавливаем (!ВАЖНО: с правами админа) последнюю версию питона - Python 3.10
+
+3) Установка pip через файл get-pip.py (команда python get-pip.py) в директории C:\Users\{USER}\AppData\Local\Programs\Python\Python310 (https://www.geeksforgeeks.org/how-to-install-pip-on-windows/#:~:text=Download%20and%20Install%20pip%3A&text=Download%20the%20get%2Dpip.py,where%20the%20above%20file%20exists.&text=and%20wait%20through%20the%20installation,now%20installed%20on%20your%20system.)
+
+4) Папку C:\PyWork нужно создать
+
+5) Требуется файл geckodriver.exe в директории C:\PyWork (https://selenium-python.com/install-geckodriver)
+
+6) Установка selenium через pip => cmd => cd C:\Users\{USER}\AppData\Local\Programs\Python\Python310\Scripts => pip.exe install selenium
+
+ИЛИ
+
+Можно попробовать через python -m pip install selenium
+
+7) Запуск скриптов через cmd => cd C:\PyWork => lab1_test.py (должен быть установлен python как способ открытия файлов .py по умолчанию)
